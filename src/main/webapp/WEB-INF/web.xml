@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         version="2.5"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+    <display-name>Servlet Application</display-name>
+
+    <servlet>
+        <servlet-name>Add</servlet-name>
+        <servlet-class>com.codewithashith.A_AddServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Add</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Square</servlet-name>
+        <servlet-class>com.codewithashith.B_SquareServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Square</servlet-name>
+        <url-pattern>/square</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Session</servlet-name>
+        <servlet-class>com.codewithashith.C_SessionTracking</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Session</servlet-name>
+        <url-pattern>/session</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>SessionTracking</servlet-name>
+        <servlet-class>com.codewithashith.C_SessionTrackingServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SessionTracking</servlet-name>
+        <url-pattern>/sessionTracking</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CookieTracking</servlet-name>
+        <servlet-class>com.codewithashith.CookieTracking</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CookieTracking</servlet-name>
+        <url-pattern>/cookie</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>CookieTrackingServlet</servlet-name>
+        <servlet-class>com.codewithashith.CookieTrackingServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CookieTrackingServlet</servlet-name>
+        <url-pattern>/cookieTracking</url-pattern>
+    </servlet-mapping>
+
+</web-app>
